@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"S1, S10, S11, S12, S13, S14, S15, S2, S3, S4, S6, S7, S8, S9",Kailh_socket_MX_reversible,14,Keyswitch,
+U1,RP2040_Pro_Micro,1,RP2040_Pro_Micro,
+"U2, U3",TRRS_PJ-320A,2,TRRS,
