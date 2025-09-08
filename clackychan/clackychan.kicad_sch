@@ -1,0 +1,3405 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "48e2540f-436e-4160-bba2-3ed500bde17e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ScottoKeebs:MCU_RP2040_Pro_Micro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "RP2040_Pro_Micro"
+				(at 0 -27.686 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_MCU:RP2040_Pro_Micro"
+				(at 0 -31.496 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCU_RP2040_Pro_Micro_0_1"
+				(rectangle
+					(start -13.97 16.51)
+					(end 13.97 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCU_RP2040_Pro_Micro_1_1"
+				(pin input line
+					(at -19.05 15.24 0)
+					(length 5.08)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 12.7 0)
+					(length 5.08)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 10.16 0)
+					(length 5.08)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 2.54 0)
+					(length 5.08)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 0 0)
+					(length 5.08)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -2.54 0)
+					(length 5.08)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -5.08 0)
+					(length 5.08)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -7.62 0)
+					(length 5.08)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -10.16 0)
+					(length 5.08)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -12.7 0)
+					(length 5.08)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -15.24 0)
+					(length 5.08)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -21.59 90)
+					(length 5.08)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -21.59 90)
+					(length 5.08)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -21.59 90)
+					(length 5.08)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -21.59 90)
+					(length 5.08)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -21.59 90)
+					(length 5.08)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 15.24 180)
+					(length 5.08)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 12.7 180)
+					(length 5.08)
+					(name "5v"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 7.62 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 5.08 180)
+					(length 5.08)
+					(name "3.3v"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 2.54 180)
+					(length 5.08)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 0 180)
+					(length 5.08)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -2.54 180)
+					(length 5.08)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -5.08 180)
+					(length 5.08)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -7.62 180)
+					(length 5.08)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -10.16 180)
+					(length 5.08)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -12.7 180)
+					(length 5.08)
+					(name "GP23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -15.24 180)
+					(length 5.08)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Keyswitch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Keyswitch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Keyswitch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_TRRS"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TRRS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ScottoKeebs_Components:TRRS_PJ-320A"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_TRRS_0_1"
+				(rectangle
+					(start -3.81 12.7)
+					(end 5.08 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 0)
+					(end -3.81 12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 0)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 12.7)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_TRRS_1_1"
+				(pin input line
+					(at -8.89 10.16 0)
+					(length 5.08)
+					(name "TIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 7.62 0)
+					(length 5.08)
+					(name "RING1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 5.08 0)
+					(length 5.08)
+					(name "RING2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 205.74 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07512f09-9c88-48e5-bf5c-77ac8ed9a083")
+	)
+	(junction
+		(at 189.23 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "078ff9be-cf7f-43b7-9893-d5ddb504fa68")
+	)
+	(junction
+		(at 189.23 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0848a795-1548-4afc-9481-bc7ab0239669")
+	)
+	(junction
+		(at 205.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a184440-e3c0-419e-8f23-d78b87442189")
+	)
+	(junction
+		(at 227.33 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b8b2a87-9f31-47ed-9172-7c0864d31392")
+	)
+	(junction
+		(at 73.66 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bddda1a-1b7e-472f-8fba-bcc74739ab1c")
+	)
+	(junction
+		(at 189.23 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4b8435-5a30-418b-8c94-827a5eba7d61")
+	)
+	(junction
+		(at 222.25 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4efdbdb6-03f0-4415-924f-be8a6850500a")
+	)
+	(junction
+		(at 172.72 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b5b82f6-3b47-469f-bf7d-222dd23682ab")
+	)
+	(junction
+		(at 227.33 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c105e80-ebe4-448b-ae33-dc664d1e127c")
+	)
+	(junction
+		(at 69.85 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c7a66b7-1f0a-4949-877f-2598ee51c762")
+	)
+	(junction
+		(at 172.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c9507c7-45f8-47d1-94bc-5d57d525fb90")
+	)
+	(junction
+		(at 68.58 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f54bcd6-32f4-4bb0-b013-3ecded473133")
+	)
+	(junction
+		(at 156.21 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9902a7dc-c491-4fcb-a90f-917afc45ba67")
+	)
+	(junction
+		(at 172.72 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0b89ea0-8f47-4945-a3a6-7f39a7b60abd")
+	)
+	(junction
+		(at 205.74 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f08483-4425-4fb2-b266-99f3fdbabf62")
+	)
+	(junction
+		(at 68.58 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5837b65-c937-4bb0-9a6e-f7bc62c7cf0e")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d84d34-f998-43fc-8859-42d5fa3d538a")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045a2b7f-2f29-4475-903b-631a18ee44cb")
+	)
+	(wire
+		(pts
+			(xy 205.74 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06691385-f3e3-4433-9f19-4466fbbb2b63")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127275d8-25a2-4155-9362-4b6e7595aa0c")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d1d499-91bd-4ef4-a5df-2007e56e87c3")
+	)
+	(wire
+		(pts
+			(xy 133.35 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ab04fe-f442-4646-a6bf-3d818fe11b94")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1a4d01-e006-443d-8db1-a438cc0374fc")
+	)
+	(wire
+		(pts
+			(xy 76.2 100.33) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab79d87-161c-4423-8b85-7cdb5ae532b9")
+	)
+	(wire
+		(pts
+			(xy 200.66 49.53) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd544b3-41b3-4edb-a235-878ef40c4297")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 78.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2373b88f-06e9-490c-9629-98a63549c7c0")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250c2559-a92d-4fc8-ac3d-8d5f6cd73e2c")
+	)
+	(wire
+		(pts
+			(xy 217.17 76.2) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2719ebf6-04e6-44ef-b21f-1e8df75b7f1a")
+	)
+	(wire
+		(pts
+			(xy 73.66 85.09) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284015f2-531b-4848-97f5-b7a5b27bcbde")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f467b1-1f4f-427c-9e3c-32a5318c234d")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 68.58 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a14d1a7-392b-4fd9-8a47-8c597b045fe5")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b12e7f7-efa2-49db-929b-4e4e5c1642c8")
+	)
+	(wire
+		(pts
+			(xy 125.73 53.34) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdea2e1-b652-4d7a-b5b0-c8acbe1a2968")
+	)
+	(wire
+		(pts
+			(xy 118.11 26.67) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8d9a71-fd8e-49c6-a8e1-cbe22d9fe2d1")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b2fdaa-9b90-4c0e-8f9e-7fc362b473ae")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363c13bc-e853-4b55-93f7-2bca4b9a5e36")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6bcc5d-21b0-454d-b64c-72015bdac9ec")
+	)
+	(wire
+		(pts
+			(xy 128.27 68.58) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409bad2d-c0ad-47ff-bb61-7831b8ad1497")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 151.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b0d28a-e050-4076-bf9f-81106a77c0c5")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fa9b27-b211-42ba-b1a3-df0f9a654ab1")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424c3a3b-e6de-4cf8-a7da-69421c4ffc4d")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4428a685-7fc6-405d-8745-7fc7b727113f")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469667f6-96e8-467c-8a90-5618b71cb7c9")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1872dd-68b8-41cb-8beb-34ef4e6f3527")
+	)
+	(wire
+		(pts
+			(xy 205.74 66.04) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa1434b-2193-4460-a8bc-8555292adc56")
+	)
+	(wire
+		(pts
+			(xy 167.64 60.96) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533a05b4-5444-48ee-af85-a12edae90c37")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d5c71a-ce13-4d02-8546-e99d5757850d")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6105e79f-1f1b-47bb-a994-eb989c4ff9ac")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62be8f0e-dc68-40a1-bb86-392c24147879")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 78.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637db710-de6f-435d-80dc-fdf1ee8dfd22")
+	)
+	(wire
+		(pts
+			(xy 227.33 66.04) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696d782b-aaf1-46b0-8685-68e2998512d1")
+	)
+	(wire
+		(pts
+			(xy 130.81 71.12) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3fa6c5-bdae-4343-bbcd-614f9788205a")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8370c1-d8d0-47ee-8264-ecd36a7d8f25")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a3d921-84d0-4507-bbb1-ec3f597f3e31")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711b12d4-18dd-4485-9046-faf9bc34b49e")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719c75a1-fde5-4f14-a10f-c61b082c5ac7")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74be3387-d8c7-4f6e-9865-f3b5a0850bf6")
+	)
+	(wire
+		(pts
+			(xy 184.15 60.96) (xy 184.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f89cad-5de8-43a9-be4f-d06dbc5379ff")
+	)
+	(wire
+		(pts
+			(xy 151.13 104.14) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785a4f40-231b-4e6b-bc4c-a661446a525f")
+	)
+	(wire
+		(pts
+			(xy 156.21 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8e5d54-926c-4578-81fd-44ca08cf79b1")
+	)
+	(wire
+		(pts
+			(xy 156.21 121.92) (xy 67.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c860bce-432f-4950-81e6-cbb2fd429e4a")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce9da44-6169-46f9-90f0-fb000d5d82ef")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 78.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2c97fd-55f9-434d-a957-b443fd607947")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8015f505-77bd-47bd-94e2-64ec414349d8")
+	)
+	(wire
+		(pts
+			(xy 66.04 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823b5597-1f7f-40e8-a060-4dc70f72db39")
+	)
+	(wire
+		(pts
+			(xy 121.92 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841913f2-9287-4d70-898c-3a01a8380309")
+	)
+	(wire
+		(pts
+			(xy 66.04 36.83) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dd621b-c6d0-4c8a-ab39-bb48c37b6df8")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 67.31 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dbcc84-7b01-4591-ab91-2ff77b4119c5")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7bc81a-58fd-4daf-ae75-4cbb7ad1745c")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915e48c0-cf56-4349-a43d-78286a2f2599")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9429f6f8-1965-41c1-84d9-5962af5a0e1c")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9607a439-52f4-44e6-8660-3904de70d4fd")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96694990-036c-4b7f-8fca-41c1353d5ba7")
+	)
+	(wire
+		(pts
+			(xy 68.58 26.67) (xy 118.11 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9862dc8b-c08a-49d3-805c-052b07d5b842")
+	)
+	(wire
+		(pts
+			(xy 205.74 96.52) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0ab438-78a8-4042-bb81-6b65a59a21f7")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4f164e-e867-45d2-a637-9cfb870b9739")
+	)
+	(wire
+		(pts
+			(xy 227.33 81.28) (xy 227.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3e46e9-1a19-4017-bf3c-d7ec5d1be1c2")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e168ade-3e79-4984-aa62-930f87e4412a")
+	)
+	(wire
+		(pts
+			(xy 66.04 41.91) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb306e0-90ca-4b0f-8d09-9debe35674a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ef6c57-2cfb-4357-a473-a694bbd014d8")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a969f4af-b870-4213-8d4f-73fce8b10ba8")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1661b3-0599-4cda-9ea7-d5f76e96dc85")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac09b5eb-62b3-42e2-a7df-8ece76d14359")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac49e17b-aab9-48d0-b180-b7595b6b4fc3")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.8) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adca4e09-2979-4361-a7b0-4b373d8b4692")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af63b215-a781-4b75-b55d-5dc4ca5ec2a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 72.39) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa5618f-b85b-440a-8838-e1f34f56fd4e")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0675260-446f-42bb-a60d-37e1a33bf156")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b193e555-0587-4770-b480-bfc33ccc6c9f")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9062d13-7049-4502-8fbe-62404c45aa84")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90a5a2c-7ab9-4512-b2b3-edf42dff4484")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c7fae6-ba0c-41b9-8d60-28e532ec608f")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 71.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce66f5e-0f78-4cff-bd40-0c1bd0437611")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 205.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0dab94-bde7-4463-ae47-219460c97885")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd46f31b-e183-4f78-98c4-54040d708d71")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf08fce-380e-4fa3-b611-ab4b9a0ed013")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be719990-f2c8-4327-ad02-5ab4e7bc8c11")
+	)
+	(wire
+		(pts
+			(xy 184.15 69.85) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c366972b-4e45-4afd-b613-34cffe83b43a")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44a8b26-1c6f-41c7-8811-0e3206b95157")
+	)
+	(wire
+		(pts
+			(xy 78.74 59.69) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56ac660-7521-4832-9b4d-b579474e8478")
+	)
+	(wire
+		(pts
+			(xy 78.74 36.83) (xy 73.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcfd98c-c1ca-4179-9bc5-edd1188e3602")
+	)
+	(wire
+		(pts
+			(xy 78.74 80.01) (xy 67.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc77964-d326-4c03-b7f9-69bd53fe37a0")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce91295f-99f4-4fe3-a4bf-24e3665edea9")
+	)
+	(wire
+		(pts
+			(xy 222.25 81.28) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9caeea-dcce-4a8a-8a5d-9ed548e978c7")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef8cc62-44e8-434d-bdde-10e519762c6a")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72ad4df-4401-425f-b9cc-3de674ee015c")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde2acd8-80db-46b1-83e4-fa741bcef985")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df159fee-0983-4f31-bf86-d42b28fdfea3")
+	)
+	(wire
+		(pts
+			(xy 133.35 82.55) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc75e56-9709-47a9-be6a-10bbf1817a23")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 73.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c3b26c-37ca-4973-a8f5-30251b9c5116")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78bccfb-53bb-42f3-afda-fd782e8b0b50")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9782f23-279c-4863-99fc-d74f846bc39c")
+	)
+	(wire
+		(pts
+			(xy 184.15 50.8) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3981c7-340d-43f2-985e-768a5e141eef")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec09da52-dba7-4e4c-86ce-8e9b9f859071")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbba931-e00c-492c-8d26-c57d41a3069d")
+	)
+	(wire
+		(pts
+			(xy 205.74 81.28) (xy 222.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef15a1d4-b00e-4287-b08b-fd629bf08499")
+	)
+	(wire
+		(pts
+			(xy 156.21 96.52) (xy 156.21 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01f7490-731f-40c8-80ca-0fd86a20cad4")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26d1f4d-0157-4ada-811c-8a52fa098e3e")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36504cb-cabc-431d-868e-e09d49d95c92")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fddbbc-e43d-4cd6-bff3-4d20ed5a34b2")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b33637-5c0c-4c29-9d24-f64d7e2b7332")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe50a69f-35a9-4d05-b841-8255f757ffa4")
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_TRRS")
+		(at 87.63 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08deed92-3c19-4b37-9183-4f6face54dd1")
+		(property "Reference" "U2"
+			(at 93.98 36.8299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TRRS"
+			(at 93.98 39.3699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:TRRS_PJ-320A"
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3cafe511-62e8-4477-9e58-8a951e34dd4e")
+		)
+		(pin "1"
+			(uuid "0f454f4b-d415-459d-8ca2-5df910d8fe6f")
+		)
+		(pin "3"
+			(uuid "7c301ebf-910c-42a6-8a25-164b1c0ec628")
+		)
+		(pin "2"
+			(uuid "1b5d342e-e57e-4ae7-8cc5-f622ae00e500")
+		)
+		(instances
+			(project ""
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 219.71 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a28b0e0-b82f-41fb-b2ff-76ddd83ed600")
+		(property "Reference" "S10"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "052e1382-7101-437b-b30f-14611f7e1bc0")
+		)
+		(pin "2"
+			(uuid "54438a8a-af6c-459a-b10e-c576eaee8a57")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.2 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c16c8cf-e4b0-4278-aedb-ee22f7b88867")
+		(property "Reference" "S4"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228dfea8-7425-457c-bbcd-aa17a2243f16")
+		)
+		(pin "2"
+			(uuid "9ffc7c74-2524-4607-895f-612b6e997aaa")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.2 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e321c68-5383-45d6-a63c-89817a618249")
+		(property "Reference" "S9"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14af25e8-8afc-4c96-a55e-5ade06c47b97")
+		)
+		(pin "2"
+			(uuid "e659ac9c-36fd-4a37-8ba3-34248e989c7d")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 170.18 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a3632b-a607-46d6-a5b4-80eda57d7a98")
+		(property "Reference" "S2"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd5db554-9f0e-4b3a-ae5d-13cc0d873024")
+		)
+		(pin "2"
+			(uuid "5055f2b5-9602-441c-abb2-81fc75266a9e")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 227.33 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359ffa42-f4e6-40c3-97c1-e42c6cc47629")
+		(property "Reference" "S15"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a6fe28f-b74f-4d4d-a80e-95046868b07e")
+		)
+		(pin "2"
+			(uuid "f41bb912-b9eb-4659-9fda-41a952a648d8")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 203.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cea28c-d15e-4578-bcfa-e52ca866e80f")
+		(property "Reference" "S14"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be451ef-8abf-40a7-b219-aad5a1fda8d0")
+		)
+		(pin "2"
+			(uuid "c3a50cd6-a73e-4032-ac64-bf0812cd53f2")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4abc904c-53a7-4c67-bdb6-d8e79ea06af3")
+		(property "Reference" "S12"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4e19d7-d4c9-4b20-ab5f-4c3f15216765")
+		)
+		(pin "2"
+			(uuid "75c7bdc2-48bc-4adf-827d-f6530ae39c2d")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 153.67 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c63533-be6b-4098-93b2-8ce00645d370")
+		(property "Reference" "S11"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee857f44-52b5-4a98-8a0b-de76355350ee")
+		)
+		(pin "2"
+			(uuid "2d6f69b7-c154-409e-b670-da4532fade58")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.69 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1a0924-62cc-4d80-8b01-16ce2385b871")
+		(property "Reference" "S3"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8edd3b3f-efa4-4870-acef-210472d5615f")
+		)
+		(pin "2"
+			(uuid "70082423-6a40-42be-b015-ca5769cfaae2")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.69 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727663ea-cb36-423f-92ef-719d5141f77b")
+		(property "Reference" "S13"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3f7aa33-5345-412d-be5c-125c8384a636")
+		)
+		(pin "2"
+			(uuid "97308fb7-ee68-48cf-9e33-4e449e0c2675")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_TRRS")
+		(at 57.15 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d4a7f38-b710-49a6-b063-199a95223708")
+		(property "Reference" "U3"
+			(at 56.515 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TRRS"
+			(at 56.515 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:TRRS_PJ-320A"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "535aa089-c0db-48bf-927b-07868caed9ab")
+		)
+		(pin "3"
+			(uuid "c099a10d-60df-4306-8f65-99780d7c71e0")
+		)
+		(pin "4"
+			(uuid "220896bd-577e-439a-a883-429a18915b7b")
+		)
+		(pin "1"
+			(uuid "a848523b-c30b-4629-aad0-7b3f78ca4ef4")
+		)
+		(instances
+			(project ""
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:MCU_RP2040_Pro_Micro")
+		(at 97.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d116e7-ce43-4164-8b47-47ad2495f80c")
+		(property "Reference" "U1"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RP2040_Pro_Micro"
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:RP2040_Pro_Micro"
+			(at 97.79 103.886 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 135.89 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "98428542-2412-401f-9323-f392fadf304a")
+		)
+		(pin "23"
+			(uuid "5830c685-be51-4bb0-b724-891e52b0d724")
+		)
+		(pin "17"
+			(uuid "e6015682-2333-4600-98c7-fcf1b7fdbfc9")
+		)
+		(pin "22"
+			(uuid "50e1d7c9-2101-473a-8636-581e804e5469")
+		)
+		(pin "28"
+			(uuid "6c4d64ae-7864-4c22-85c6-94d2a3222146")
+		)
+		(pin "24"
+			(uuid "bcd3430f-2dc9-4fd3-b872-d492cba89a48")
+		)
+		(pin "20"
+			(uuid "f0e2f1f7-8cb7-47a2-bd11-e2d8c1f681b1")
+		)
+		(pin "25"
+			(uuid "477f37da-ecac-46d7-8378-d29a56f975c8")
+		)
+		(pin "26"
+			(uuid "bb03b568-e895-41b7-a4cf-3952a732dfb9")
+		)
+		(pin "30"
+			(uuid "8226cf7f-4105-412f-8796-2953cb43c820")
+		)
+		(pin "16"
+			(uuid "db6d5dc1-41eb-44af-b592-ac5852a55ceb")
+		)
+		(pin "27"
+			(uuid "99058bdb-81b1-42fe-b427-374642dbdff1")
+		)
+		(pin "19"
+			(uuid "952bc152-31b1-47b1-9a3e-3e9259f610a7")
+		)
+		(pin "21"
+			(uuid "2607ba2e-829c-4a51-9105-fc9c73eddaef")
+		)
+		(pin "14"
+			(uuid "fdbddc87-d11f-484d-81ab-b12503fb2e11")
+		)
+		(pin "18"
+			(uuid "4a0e25cf-0de2-4057-92b3-0a5949848dea")
+		)
+		(pin "8"
+			(uuid "6f3b84e9-bb2e-4ace-a126-f6984f6070f6")
+		)
+		(pin "3"
+			(uuid "76f38251-5167-4b26-a76d-f25ef0f23e05")
+		)
+		(pin "31"
+			(uuid "a77b6347-14ef-465d-8af7-e4d79f707c30")
+		)
+		(pin "2"
+			(uuid "78e5ad59-8e73-4585-97bf-ee55db32a291")
+		)
+		(pin "1"
+			(uuid "02ddbef7-ef14-4dbb-a7fa-021cef42b8bf")
+		)
+		(pin "10"
+			(uuid "e3834eeb-f100-4487-aa19-4ac4dbe3f52e")
+		)
+		(pin "15"
+			(uuid "15d6e7de-b83b-4fd7-acec-713dd02ff36f")
+		)
+		(pin "13"
+			(uuid "dcd8247a-bbe0-4517-98e4-f1bc89dcc352")
+		)
+		(pin "9"
+			(uuid "ef14580f-1058-4435-9c69-4dbc16628681")
+		)
+		(pin "7"
+			(uuid "16d58921-678b-42f1-92af-fea9e8d7ec88")
+		)
+		(pin "6"
+			(uuid "95081454-c6ad-48bd-950a-c3a7b01e151b")
+		)
+		(pin "5"
+			(uuid "13d0343a-66cc-4766-8afd-4b68b94321ad")
+		)
+		(pin "4"
+			(uuid "fefa7f1a-dcb4-4cd2-9064-6802e0c71c5c")
+		)
+		(pin "11"
+			(uuid "e5b864c4-5ab6-4f25-ad3f-83567333a170")
+		)
+		(pin "12"
+			(uuid "7054188b-39ba-424a-922e-8ca47b5f6549")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 170.18 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40513df-ff35-4f4b-9021-658ce740827f")
+		(property "Reference" "S7"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03197680-7e9b-4ba3-8e6b-78f74c7e1855")
+		)
+		(pin "2"
+			(uuid "32353b79-19f2-467a-a35b-3e370a7da8c9")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 153.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0155d5b-a1ab-4748-bc45-b954a0a65b1f")
+		(property "Reference" "S1"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f87b662a-e426-49f4-86fd-657473e27739")
+		)
+		(pin "2"
+			(uuid "a7923581-2936-4184-bf04-32b9b1936e8e")
+		)
+		(instances
+			(project ""
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 153.67 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2eddc31-b908-4190-bdcb-7483a776e9d1")
+		(property "Reference" "S6"
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4215096e-22e3-4c3b-b29b-7d8cec0e4865")
+		)
+		(pin "2"
+			(uuid "a6655feb-9ac5-42c6-978d-8058a943b6b5")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 186.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f575fe-6d4b-4dc4-ac16-b8f66574d61d")
+		(property "Reference" "S8"
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches_daprice:Kailh_socket_MX_reversible"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07a7f92-6eed-4b99-86c7-6cbf0dc80478")
+		)
+		(pin "2"
+			(uuid "d6434fe6-a714-40f9-b789-86c71aa55b87")
+		)
+		(instances
+			(project "clackychan"
+				(path "/48e2540f-436e-4160-bba2-3ed500bde17e"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
