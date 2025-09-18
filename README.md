@@ -1,3 +1,4 @@
+#Clacky Chan 
 Clacky Chan is a custom made prototype split keyboard for testing out communication using trrs cables between the halves.
 
 It consists of:
