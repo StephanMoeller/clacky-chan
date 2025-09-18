@@ -16,3 +16,10 @@ Its running my own firmware, zigmkay, which can be found here: https://github.co
 ![ff60f66d-b6b9-4421-adec-dca49aa49fca](https://github.com/user-attachments/assets/700e411b-bc0a-42f3-a899-1d2d8428040f)
 ![8c7d04c5-575d-4bbf-8a1f-15eb03bb9990 (1)](https://github.com/user-attachments/assets/4ed62cde-bd84-4ece-80b8-4978292eda0b)
 ![dbb364ab-9d85-4f8b-a48c-94f8f26aa15f](https://github.com/user-attachments/assets/13c62a10-3876-4ad6-9944-8f54f75f3362)
+
+
+
+PCB gerber files for production can be found in clackychan/production/clackychan.zig
+
+Following picture uses wiring, eg. GPIO 6 is used as the single col and all the row pins can be determined as well. The thumb keys are wired to the GPIO 6 and then I choose GPIO 10 in the corner as the row.
+<img width="1679" height="843" alt="image" src="https://github.com/user-attachments/assets/c3d4a3ce-5288-4084-a339-466c84dcdcbc" />
