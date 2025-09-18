@@ -26,3 +26,10 @@ Following picture uses wiring, eg. GPIO 6 is used as the single col and all the 
 <img width="1679" height="843" alt="image" src="https://github.com/user-attachments/assets/c3d4a3ce-5288-4084-a339-466c84dcdcbc" />
 
 Ongoing OnShape repo with the tenting: https://cad.onshape.com/documents/76ee9714ee23fe3d9d1e73a4/w/b73638d5ae9d33482cab6d43/e/1ea8409974f0fb535c971db1
+
+All my boards:
+
+https://github.com/StephanMoeller/clacky-chan
+https://github.com/StephanMoeller/mike-typeson
+https://github.com/StephanMoeller/skinnypete32
+https://github.com/StephanMoeller/wilson26
