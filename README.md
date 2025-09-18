@@ -29,7 +29,7 @@ Ongoing OnShape repo with the tenting: https://cad.onshape.com/documents/76ee971
 
 All my boards:
 
-https://github.com/StephanMoeller/clacky-chan
-https://github.com/StephanMoeller/mike-typeson
-https://github.com/StephanMoeller/skinnypete32
-https://github.com/StephanMoeller/wilson26
+https://github.com/StephanMoeller/clacky-chan  
+https://github.com/StephanMoeller/mike-typeson  
+https://github.com/StephanMoeller/skinnypete32  
+https://github.com/StephanMoeller/wilson26  
