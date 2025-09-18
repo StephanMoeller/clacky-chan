@@ -23,3 +23,5 @@ PCB gerber files for production can be found in clackychan/production/clackychan
 
 Following picture uses wiring, eg. GPIO 6 is used as the single col and all the row pins can be determined as well. The thumb keys are wired to the GPIO 6 and then I choose GPIO 10 in the corner as the row.
 <img width="1679" height="843" alt="image" src="https://github.com/user-attachments/assets/c3d4a3ce-5288-4084-a339-466c84dcdcbc" />
+
+Ongoing OnShape repo with the tenting: https://cad.onshape.com/documents/76ee9714ee23fe3d9d1e73a4/w/b73638d5ae9d33482cab6d43/e/1ea8409974f0fb535c971db1
