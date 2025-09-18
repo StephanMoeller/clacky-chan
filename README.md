@@ -3,8 +3,11 @@ Clacky Chan is a custom made prototype split keyboard for testing out communicat
 It consists of:
 
 rp2040 pro micro
+
 pcb's for each half and wire attached thumb keys as I want the thumbs to be tented just slightly on relation to the finger area.
+
 It is completely diode free and takes 20 mins of soldering for each side. It is not the last time I will try a diode-free design :)
+
 Its running my own firmware, zigmkay, which can be found here: https://github.com/StephanMoeller/zigmkay
 
 ![71d9d91a-8ce8-4dc4-b1a9-bd24813d666e](https://github.com/user-attachments/assets/3ee29972-4315-4a07-abc8-7d7b9e7b72ac)
