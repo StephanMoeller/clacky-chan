@@ -19,6 +19,9 @@ Its running my own firmware, zigmkay, which can be found here: https://github.co
 ![8c7d04c5-575d-4bbf-8a1f-15eb03bb9990 (1)](https://github.com/user-attachments/assets/4ed62cde-bd84-4ece-80b8-4978292eda0b)
 ![dbb364ab-9d85-4f8b-a48c-94f8f26aa15f](https://github.com/user-attachments/assets/13c62a10-3876-4ad6-9944-8f54f75f3362)
 
+# Unibody case
+![0e690a9f-9a9f-48c4-8cef-8b80c9a6f156](https://github.com/user-attachments/assets/be83836f-84f3-42d1-b33d-906d9b495ceb)
+![65da4e0c-8134-4725-a974-a8907a2f9301](https://github.com/user-attachments/assets/5e671b51-b12f-4c6f-96e6-b8b0994b79ca)
 
 
 PCB gerber files for production can be found in clackychan/production/clackychan.zig
