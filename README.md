@@ -10,8 +10,8 @@ It consists of:
 Its running my own firmware, zigmkay, which can be found here: https://github.com/StephanMoeller/zigmkay
 
 # Black version - Unibody case
-![2fe62f42-b4df-402e-ac64-a8a9cb1a0f7f](https://github.com/user-attachments/assets/dec73c77-ea62-44bd-84ee-929adb73e6ce)
 ![7f63db8b-d6e0-4c39-9a91-76ac389d0bd9](https://github.com/user-attachments/assets/1bb303ae-b207-4926-adc1-76236a75b193)
+![2fe62f42-b4df-402e-ac64-a8a9cb1a0f7f](https://github.com/user-attachments/assets/dec73c77-ea62-44bd-84ee-929adb73e6ce)
 ![d4c0fe6e-fffc-4eb9-a765-44190064d145](https://github.com/user-attachments/assets/a4d97218-893e-489c-90df-040681a4623c)
 ![e9f355bb-30e8-4752-bb39-aa15e23ebeb3](https://github.com/user-attachments/assets/d1a8252d-35ed-47b4-886d-28b079792015)
 ![0af01adf-e6e9-4c1b-97dd-531818d74c7d](https://github.com/user-attachments/assets/c2e32872-b056-4d6a-a22d-a92a4657182a)
