@@ -9,6 +9,21 @@ It consists of:
 
 Its running my own firmware, zigmkay, which can be found here: https://github.com/StephanMoeller/zigmkay
 
+# Black version - Unibody case
+![2fe62f42-b4df-402e-ac64-a8a9cb1a0f7f](https://github.com/user-attachments/assets/dec73c77-ea62-44bd-84ee-929adb73e6ce)
+![7f63db8b-d6e0-4c39-9a91-76ac389d0bd9](https://github.com/user-attachments/assets/1bb303ae-b207-4926-adc1-76236a75b193)
+![d4c0fe6e-fffc-4eb9-a765-44190064d145](https://github.com/user-attachments/assets/a4d97218-893e-489c-90df-040681a4623c)
+![e9f355bb-30e8-4752-bb39-aa15e23ebeb3](https://github.com/user-attachments/assets/d1a8252d-35ed-47b4-886d-28b079792015)
+![0af01adf-e6e9-4c1b-97dd-531818d74c7d](https://github.com/user-attachments/assets/c2e32872-b056-4d6a-a22d-a92a4657182a)
+![bbfe21ab-32e2-4533-92b4-2e22920a8e99](https://github.com/user-attachments/assets/8dfc6a8b-1f69-43d2-9d6c-74a0956fa1f3)
+![90a544af-5f98-4dbb-adc4-b786cee89c0b](https://github.com/user-attachments/assets/e0a90328-8870-4572-8281-eb650c9fd356)
+
+
+# Yellow version - Unibody case
+![0e690a9f-9a9f-48c4-8cef-8b80c9a6f156](https://github.com/user-attachments/assets/be83836f-84f3-42d1-b33d-906d9b495ceb)
+![65da4e0c-8134-4725-a974-a8907a2f9301](https://github.com/user-attachments/assets/5e671b51-b12f-4c6f-96e6-b8b0994b79ca)
+
+# Yelow version - Split case
 ![71d9d91a-8ce8-4dc4-b1a9-bd24813d666e](https://github.com/user-attachments/assets/3ee29972-4315-4a07-abc8-7d7b9e7b72ac)
 ![ad2c0e29-a139-48bc-9a63-2b7b12f0825a](https://github.com/user-attachments/assets/16eacefb-4dd3-4111-8600-1d8253eda8ac)
 ![b09ff933-2e11-4308-b0d9-10f68c65feef](https://github.com/user-attachments/assets/d984fd10-9ccc-4fe0-8f29-0581a453d0ea)
@@ -19,9 +34,6 @@ Its running my own firmware, zigmkay, which can be found here: https://github.co
 ![8c7d04c5-575d-4bbf-8a1f-15eb03bb9990 (1)](https://github.com/user-attachments/assets/4ed62cde-bd84-4ece-80b8-4978292eda0b)
 ![dbb364ab-9d85-4f8b-a48c-94f8f26aa15f](https://github.com/user-attachments/assets/13c62a10-3876-4ad6-9944-8f54f75f3362)
 
-# Unibody case
-![0e690a9f-9a9f-48c4-8cef-8b80c9a6f156](https://github.com/user-attachments/assets/be83836f-84f3-42d1-b33d-906d9b495ceb)
-![65da4e0c-8134-4725-a974-a8907a2f9301](https://github.com/user-attachments/assets/5e671b51-b12f-4c6f-96e6-b8b0994b79ca)
 
 
 PCB gerber files for production can be found in clackychan/production/clackychan.zig
